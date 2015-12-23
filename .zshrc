@@ -34,7 +34,7 @@ export JAVA_HOME="/opt/java/jdk1.8.0_45"
 export CUDA_HOME="/usr/local/cuda"
 
 #GRADLE_HOME
-export GRADLE_HOME="/opt/gradle-2.4/"
+export GRADLE_HOME="/opt/gradle-2.4"
 PATH="$GRADLE_HOME/bin:$PATH"
 
 #ANT_HOME
@@ -45,7 +45,7 @@ export ANDROID_HOME="$HOME/Android/Sdk"
 PATH="$ANDROID_HOME/platform-tools:$PATH"
 
 #CMAKE_HOME
-export CMAKE_HOME="/opt/cmake-3.2.2-Linux-x86_64/"
+export CMAKE_HOME="/opt/cmake-3.2.2-Linux-x86_64"
 PATH="$CMAKE_HOME/bin:$PATH"
 
 #Golang
