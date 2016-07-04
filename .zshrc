@@ -5,14 +5,12 @@ export ZSH=/home/derek/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="powerlevel9k/powerlevel9k"
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(time)
+ZSH_THEME="robbyrussell"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git web-search colorize tmux)
+plugins=(git web-search colorize)
 
 # User configuration
 
@@ -28,7 +26,7 @@ if [ -d $HOME/.rbenv ]; then
 fi
 
 #JAVA_HOME
-export JAVA_HOME="/opt/java/jdk1.8.0_45"
+export JAVA_HOME="/opt/java/jdk"
 
 #CUDA_HOME
 export CUDA_HOME="/usr/local/cuda"
@@ -50,7 +48,7 @@ PATH="$CMAKE_HOME/bin:$PATH"
 
 #Golang
 PATH="$PATH:/usr/local/go/bin"
-export GOPATH="$HOME/workspace/go"
+export GOPATH="$HOME/workspace/golang"
 PATH="$PATH:$GOPATH/bin"
 
 export VIM_BUILD="$HOME/vim_build"
